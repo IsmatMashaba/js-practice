@@ -4,4 +4,4 @@ if(a>5){
     console.log('a is bigger than 5')
 }else {
     console.log('a is smaller than 5')
-};
+}
