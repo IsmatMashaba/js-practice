@@ -10,13 +10,16 @@
 
 
 // 3.2 take any positive number then return sum of its digits. for example number 123 => output :6
-// could not solve it
 
 
- let number=123;
+
+ let number=981; 
  let text=number.toString();
+
  let sum=0;
- for(i=0;i<=text.length;i++){
+
+ for(i=0;i<text.length;i++){
    sum+=parseInt(text[i])
  }
- console.log(sum);
+ 
+ console.log(sum)
