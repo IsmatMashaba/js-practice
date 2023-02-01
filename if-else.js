@@ -1,5 +1,6 @@
-const a = 3;
+
 // write a if-else condition to check if a is bigger or smaller to 5
+const a = 3;
 if(a>5){
     console.log('a is bigger than 5')
 }else {

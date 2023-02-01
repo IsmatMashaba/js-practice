@@ -13,13 +13,26 @@
 
 
 
- let number=981; 
- let text=number.toString();
+ let num=981;
+
+console.log(num[0])
 
  let sum=0;
 
  for(i=0;i<text.length;i++){
    sum+=parseInt(text[i])
  }
- 
- console.log(sum)
+ console.log(sum);
+}
+console.log(num[0])
+
+
+/*if (num <= 0) {
+ console.log("Must provide positive number.")
+}else {
+ let sum = 0;
+ for (let i=0; i<num.length; i++) {
+  sum += Number(num[i]);
+ }
+ console.log(sum);
+}*/
